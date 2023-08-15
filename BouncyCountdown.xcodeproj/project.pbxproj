@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517D44232A8B83500027A756 /* Tweeted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517D44222A8B83500027A756 /* Tweeted.swift */; };
 		51D4B8932A8B315600634AF3 /* BouncyCountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4B8922A8B315600634AF3 /* BouncyCountdownApp.swift */; };
 		51D4B8952A8B315600634AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4B8942A8B315600634AF3 /* ContentView.swift */; };
 		51D4B8972A8B315800634AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D4B8962A8B315800634AF3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		517D44222A8B83500027A756 /* Tweeted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweeted.swift; sourceTree = "<group>"; };
 		51D4B88F2A8B315600634AF3 /* BouncyCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D4B8922A8B315600634AF3 /* BouncyCountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyCountdownApp.swift; sourceTree = "<group>"; };
 		51D4B8942A8B315600634AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				51D4B8922A8B315600634AF3 /* BouncyCountdownApp.swift */,
 				51D4B8942A8B315600634AF3 /* ContentView.swift */,
+				517D44222A8B83500027A756 /* Tweeted.swift */,
 				51D4B8962A8B315800634AF3 /* Assets.xcassets */,
 				51D4B89B2A8B315800634AF3 /* BouncyCountdown.entitlements */,
 				51D4B8982A8B315800634AF3 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517D44232A8B83500027A756 /* Tweeted.swift in Sources */,
 				51D4B8952A8B315600634AF3 /* ContentView.swift in Sources */,
 				51D4B8932A8B315600634AF3 /* BouncyCountdownApp.swift in Sources */,
 			);

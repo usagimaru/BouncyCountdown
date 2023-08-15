@@ -49,11 +49,11 @@ struct CountdownView: View {
 					.cornerRadius(15)
 					.contentTransition(.numericText(countsDown: true))
 					.onReceive(timer){ _ in
-						withAnimation(.smooth) {
-							if self.timeRemaining > 0 {
-								self.timeRemaining -= 1
-							}else{
-								self.timer.upstream.connect().cancel()
+						withAnimation() {
+							if timeRemaining > 0 {
+								timeRemaining -= 1
+							} else {
+								timer.upstream.connect().cancel()
 							}
 						}
 					}
